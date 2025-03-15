@@ -1,4 +1,80 @@
-h1{ color: blueviolet;
-background-color: black;
-font-size:72px ;
-border: 3px double red;}
+@font-face{
+font-family:scr:url(../font/Oakside.ttf);
+}
+* {
+    box-sizing: ;
+}
+
+
+
+
+h1 {
+    color: blueviolet;
+    background-color:rgba(0, 0, 0, 0.5);
+    font-size: 72px;
+
+}
+
+h2 {
+    color: white;
+    background-color: black;
+}
+
+#imgHeader {
+    border: 1px solid red;
+    height: 200px;
+    width: 100%;
+    background: url(../imagens/Andromeda_Galaxy_\(with_h-alpha\).jpg) no-repeat center center/cover;
+}
+
+p {
+    border: auto;
+    height: auto;
+
+}
+
+#paragraphlink {
+    text-align: center;
+
+}
+
+span {
+    font-weight: bold;
+}
+
+#messier32 {
+    color: brown
+}
+
+
+#bot1 {
+    text-align: center;
+
+}
+
+#bot2 {
+    text-align: center;
+}
+
+#bot3 {
+    text-align: center;
+}
+
+a {
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+    /* remover a linha que fica abaixo  */
+    width: 250px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+a:hover {
+    color: rgb(4, 13, 94);
+    background-color: rgb(247, 246, 242);
+    outline: 2px;
+}
